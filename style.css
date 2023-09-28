@@ -87,10 +87,12 @@ header,
 header {
   /* border: solid #22d3ff; */ /*! border */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 30px 21%;
   text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 500px;
 }
 
 .logo {
