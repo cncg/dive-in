@@ -91,8 +91,6 @@ header {
   align-items: center;
   padding: 30px 21%;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .logo {
@@ -266,4 +264,19 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* ? footer */
+
+footer {
+  height: 119px;
+  background-color: rgb(32, 41, 55);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: white;
 }
